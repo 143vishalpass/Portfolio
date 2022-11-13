@@ -1,0 +1,48 @@
+body{
+  padding:0px;
+  margin:0px;
+  background-image:url("gg.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 500px;
+}
+.navbar ul{
+  list-style:none;
+   border: solid 2px grey;
+   border-radius: 10px;
+   background-color:grey;
+   
+}
+.navbar li {
+  display: inline-block;
+  padding:0px 0px;
+ ;
+}
+.navbar li a{
+  text-decoration: none;
+  padding: 0px 0px;
+  color: white;
+  font-weight:bold;
+  animation-name: vishal;
+  animation-duration: 2s;
+  margin:2px 30px;
+}
+.navbar li a:hover{
+  color:red;
+  cursor: pointer;
+}
+
+h1 {
+  color: white;
+  font-weight:bold;
+  font-size:50px;
+  padding:0px 10px;
+}
+span{
+  color:orange;
+  font-weight:bold;
+  font-size: 80px;
+}
+.name {
+  padding: 40px 0px;
+}
